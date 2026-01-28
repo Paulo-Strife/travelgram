@@ -17,10 +17,18 @@ header .container {
     max-width: 384px;
 }
 
+#profile img {
+    width: 176px;
+    height: 176px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #profile h1 {
-    font: var(--text-lg);
+    font: bold, 32px/125%;
     color: var(--text-color-primary);
     margin-bottom: 8px;
+    padding-bottom: 8px;
 }
 
 #profile p {
